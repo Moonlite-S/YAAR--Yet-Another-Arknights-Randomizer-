@@ -1,0 +1,259 @@
+/* This is where the Operators and rarities are assigned to in the Operator tab */
+
+/* Rarities */
+.OneStar { background-color: #D9D9D9; }
+.TwoStar { background-color:  #DCE538; }
+.ThreeStar { background-color: #ABE6FF; }
+.FourStar { background-color: #ECECF4; }
+.FiveStar { background-color: #F9E9B7; }
+.SixStar { background-color: #FBDE6C; }
+
+/* Classes of all playable characters in Global */
+
+/* Vanguards */
+.yato {
+    background-image: none;
+}
+.vanilla {
+    background-image: none;
+}
+.plume {
+    background-image: none;
+}
+.fang {
+    background-image: none;
+}
+.vigna {
+    background-image: none;
+}
+.scavenger {
+    background-image: none;
+}
+.myrtle {
+    background-image: none;
+}
+.courier {
+    background-image: none;
+}
+.beanstalk {
+    background-image: none;
+}
+.zima {
+    background-image: none;
+}
+.wildmane {
+    background-image: none;
+}
+.texas {
+    background-image: none;
+}
+.reed {
+    background-image: none;
+}
+.grani {
+    background-image: none;
+}
+.elysium {
+    background-image: none;
+}
+.chiave {
+    background-image: none;
+}
+.cantabile {
+    background-image: none;
+}
+.blacknight {
+    background-image: none;
+}
+.vigil {
+    background-image: none;
+}
+.siege {
+    background-image: none;
+}
+.saileach {
+    background-image: none;
+}
+.saga {
+    background-image: none;
+}
+.flametail {
+    background-image: none;
+}
+.bagpipe {
+    background-image: none;
+}
+
+/* Defenders */
+.noirCorne {
+    background-image: none;
+}
+.spot {
+    background-image: none;
+}
+.cardigan {
+    background-image: none;
+}
+.beagle {
+    background-image: none;
+}
+.gummy {
+    background-image: none;
+}
+.matterhorn {
+    background-image: none;
+}
+.durnar {
+    background-image: none;
+}
+.cuora {
+    background-image: none;
+}
+.bubble {
+    background-image: none;
+}
+.vulcan {
+    background-image: none;
+}
+.shalem {
+    background-image: none;
+}
+.nearl {
+    background-image: none;
+}
+.liskarm {
+    background-image: none;
+}
+.hung {
+    background-image: none;
+}
+.heavyrain {
+    background-image: none;
+}
+.firewhistle {
+    background-image: none;
+}
+.czerny {
+    background-image: none;
+}
+.croissant {
+    background-image: none;
+}
+.blitz {
+    background-image: none;
+}
+.bison {
+    background-image: none;
+}
+.aurora {
+    background-image: none;
+}
+.ashlock {
+    background-image: none;
+}
+.asbestos {
+    background-image: none;
+}
+.saria {
+    background-image: none;
+}
+.penance {
+    background-image: none;
+}
+.nian {
+    background-image: none;
+}
+.mudrock {
+    background-image: none;
+}
+.hoshiguma {
+    background-image: none;
+}
+.horn {
+    background-image: none;
+}
+.eunectes {
+    background-image: none;
+}
+.blemishine {
+    background-image: none;
+}
+
+/* Supporters */
+.orchid {
+    background-image: none;
+}
+.roberta {
+    background-image: none;
+}
+.podenco {
+    background-image: none;
+}
+.earthspirit {
+    background-image: none;
+}
+.deepcolor {
+    background-image: none;
+}
+.istina {
+    background-image: none;
+}
+.windflit {
+    background-image: none;
+}
+.tsukinogi { 
+    background-image: none; 
+}
+.sora {
+    background-image: none;
+}
+.shamare {
+    background-image: none;
+}
+.scene {
+    background-image: none;
+}
+.quercus {
+    background-image: none;
+}
+.proviso {
+    background-image: none;
+}
+.pramanix {
+    background-image: none;
+}
+.nineColoredDeer {
+    background-image: none;
+}
+.mayer {
+    background-image: none;
+}
+.heidi {
+    background-image: none;
+}
+.glaucus {
+    background-image: none;
+}
+.suzuran {
+    background-image: none;
+}
+.stainless {
+    background-image: none;
+}
+.skadiAlter {
+    background-image: none;
+}
+.magallan {
+    background-image: none;
+}
+.ling {
+    background-image: none;
+}
+.gnosis {
+    background-image: none;
+}
+.angelina {
+    background-image: none;
+}
+
+/* Specialist */

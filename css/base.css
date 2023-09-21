@@ -1,0 +1,80 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+#Operator {
+    background-color: blueviolet; 
+    height: 800px; 
+    width: 100%; 
+    max-width: 2500px;
+    text-align: center;
+    margin: auto;
+}
+
+#OpClassSelect {
+    height: 100%;
+    width: 10%;
+    max-width: 100px; 
+    min-width: 100px; 
+    background-color: gray; 
+    display: block;
+    float: left;
+}
+    
+    .opClass {
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-color: green;      
+    }
+
+    .opClass.Vanguard{
+        background-color: yellow;
+    }
+
+#OpCharSelect {
+    height: 100%; 
+    width: 100%; 
+    background-color: azure; 
+    justify-content: space-evenly;
+}
+
+    .opCard {
+        width: 100px;
+        height: 150px;
+        float: left;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin: 5px;
+        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(87, 87, 87, 0.5));
+        transition: 0.3s;
+
+    }
+
+    .opCard:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+#Levels {
+    background-color: coral; 
+    height: 800px;
+    max-width: 2000px;
+
+}
+
+#RuleSettings {
+    background-color: rgb(255, 137, 202); 
+    height: 800px;
+    max-width: 2000px;
+
+}
