@@ -12,19 +12,16 @@ h1, h2 {
 }
 
 #Operator {
-    background-color: blueviolet; 
+    background-color: rgb(111, 77, 143); 
     height: 800px; 
-    width: 100%; 
-    max-width: 2500px;
+    width: 1300px; 
     text-align: center;
     margin: auto;
 }
 
 #OpClassSelect {
-    height: 100%;
-    width: 10%;
-    max-width: 100px; 
-    min-width: 100px; 
+    width: 100px;
+    height: 100px;
     background-color: gray; 
     display: block;
     float: left;
@@ -34,29 +31,47 @@ h1, h2 {
         width: 100px;
         height: 100px;
         display: block;
-        background-color: green;      
+        background-color: rgb(139, 139, 139);      
+        transition: 0.3s;
     }
 
-    .opClass.Vanguard{
-        background-color: yellow;
-    }
+    .opClass.Vanguard{ background-image: url('../img/vanguard.png'); }
+
+    .opClass.Guard{ background-image: url('../img/guard.png'); }
+
+    .opClass.Defender{ background-image: url('../img/defender.png');}
+
+    .opClass.Caster{ background-image: url('../img/caster.png');}
+
+    .opClass.Sniper{ background-image: url('../img/sniper.png')}
+
+    .opClass.Medic{ background-image: url('../img/medic.png');}
+
+    .opClass.Supporter{ background-image: url('../img/supporter.png');}
+
+    .opClass.Specialist{ background-image: url('../img/specialist.png');}
+
+    .opClass:hover { background-color: rgb(112, 112, 112);}
 
 #OpCharSelect {
     height: 100%; 
-    width: 100%; 
+    width: 1200px; 
     background-color: azure; 
-    justify-content: space-evenly;
+    overflow-y: scroll;
 }
 
     .opCard {
-        width: 100px;
-        height: 150px;
+        width: 140px;
+        height: 70px;
         float: left;
         display: flex;
         justify-content: flex-end;
+        text-align: right;
         flex-direction: column;
-        margin: 5px;
-        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(87, 87, 87, 0.5));
+        margin: 10px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(87, 87, 87, 0.5));
         transition: 0.3s;
 
     }
@@ -68,13 +83,15 @@ h1, h2 {
 #Levels {
     background-color: coral; 
     height: 800px;
-    max-width: 2000px;
+    width: 1300px; 
+    margin: auto;
 
 }
 
 #RuleSettings {
     background-color: rgb(255, 137, 202); 
     height: 800px;
-    max-width: 2000px;
+    width: 1300px; 
+    margin: auto;
 
 }
