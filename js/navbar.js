@@ -3,7 +3,7 @@ var visibleTabs = null;
 
 function tabVisible(tab) {
     if (visibleTabs == tab) 
-        visibleTabs = null;
+        return;
     else   
         visibleTabs = tab;
     hideOtherTabs();
