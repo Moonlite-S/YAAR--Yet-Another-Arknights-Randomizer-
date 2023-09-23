@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="css/base.css"/>
         <link rel="stylesheet" href="css/charClasses.css"/>
     </head>
-    <body style="text-align: center;">
+    <body class="mainBody" style="text-align: center;">
         <!--YAAR Top Div-->
-        <div style="height: 200px;">
+        <div class="mainHeader" style="height: 170px;">
             <h1 style="font-size: 50px;">Yet Another Arknights Randomizer</h1>
             <p6>Created by Moonlite-S</p6>
             <hr style="width: 300px; border-radius: 5px;">
@@ -17,14 +17,16 @@
             - Select Maps (Only Global events are available) <br>
             - Modify Rules (True Random, Draft, or Roguelike)</p2>
         </div>
-        <!--The Main Body-->
-        <div style="background-color: rgb(112, 255, 200); height: 800px;">
-            <div style="background-color: rgb(93, 59, 155); height: 40px;">
-                <button onclick="tabVisible('Operator')">Operator</button>
-                <button onclick="tabVisible('Levels')">Map</button>
-                <button onclick="tabVisible('RuleSettings')">Settings</button>
 
-            </div>
+        <!--The Main Body-->
+        <div class="mainHeader" style="height: 40px;">
+            <button onclick="tabVisible('Operator')" class="tabButton">Operator</button>
+            <button onclick="tabVisible('Levels')" class="tabButton">Map</button>
+            <button onclick="tabVisible('RuleSettings')" class="tabButton">Settings</button>
+            <button onclick="tabVisible('Randomize')" class="tabButton">Randomizer</button>
+        </div>
+
+        <div style="height: 870px;" class="mainBody">
             <div id="Operator">
                 <div id="OpClassSelect">
                     <div class="opClass Vanguard"></div>
@@ -35,10 +37,11 @@
                     <div class="opClass Medic"></div>
                     <div class="opClass Supporter"></div>
                     <div class="opClass Specialist"></div>
+                    <div class="opClassToggle">All On / Off</div>
                 </div>
                 <!-- A bunch of Operator Divs -->
                 <div id="OpCharSelect">
-                    <div class="opCard SixStar">
+                    <div class="opCard SixStar" >
                         <p>Aak</p>
                     </div>
                     <div class="opCard SixStar">
@@ -114,6 +117,9 @@
             </div>
             <div id="RuleSettings" class="hide">
                 This is the setting tab yay
+            </div>
+            <div id="Randomize" class="hide">
+                This is the randomizer tab yay
             </div>
         </div>
 

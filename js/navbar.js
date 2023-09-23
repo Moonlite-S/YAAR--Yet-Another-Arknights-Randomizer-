@@ -1,4 +1,4 @@
-var divs = ["Operator", "Levels", "RuleSettings"];
+var divs = ["Operator", "Levels", "RuleSettings", "Randomize"];
 var visibleTabs = null;
 
 function tabVisible(tab) {

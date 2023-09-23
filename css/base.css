@@ -1,19 +1,44 @@
 html, body{
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 
 h1, h2 {
     margin: 0px;
 }
 
+.mainHeader {
+    background-color: rgb(64, 66, 88);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainBody {
+    background-color: rgb(64, 66, 88);
+}
+
+.tabButton {
+    border: none;
+    background-color: rgb(71, 78, 104);
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}  
+
+    .tabButton:hover {
+        background-color: rgb(80, 87, 122);
+    }
+
 .hide {
     display: none;
 }
 
 #Operator {
-    background-color: rgb(111, 77, 143); 
-    height: 800px; 
+    background-color: rgb(64, 66, 88); 
+    height: 830px; 
     width: 1300px; 
     text-align: center;
     margin: auto;
@@ -21,8 +46,8 @@ h1, h2 {
 
 #OpClassSelect {
     width: 100px;
-    height: 100px;
-    background-color: gray; 
+    height: 100%;
+    background-color: rgb(71, 78, 104);
     display: block;
     float: left;
 }
@@ -31,9 +56,16 @@ h1, h2 {
         width: 100px;
         height: 100px;
         display: block;
-        background-color: rgb(139, 139, 139);      
         transition: 0.3s;
     }
+
+    .opClassToggle {
+        width: 100px;
+        height: 30px;
+        transition: 0.3s;
+    }
+
+    .opClassToggle:hover { background-color: rgb(80, 87, 122);}
 
     .opClass.Vanguard{ background-image: url('../img/vanguard.png'); }
 
@@ -51,12 +83,12 @@ h1, h2 {
 
     .opClass.Specialist{ background-image: url('../img/specialist.png');}
 
-    .opClass:hover { background-color: rgb(112, 112, 112);}
+    .opClass:hover { background-color: rgb(24, 18, 43);}
 
 #OpCharSelect {
     height: 100%; 
     width: 1200px; 
-    background-color: azure; 
+    background-color: rgb(107, 114, 142); 
     overflow-y: scroll;
 }
 
@@ -71,27 +103,36 @@ h1, h2 {
         margin: 10px;
         padding-right: 8px;
         padding-bottom: 0px;
-        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(87, 87, 87, 0.5));
         transition: 0.3s;
-
+        background-size: contain;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        color: black;
     }
 
     .opCard:hover {
         transform: scale(1.1, 1.1);
+        box-shadow: 0px 0px 25px rgb(0, 0, 0);
     }
 
 #Levels {
     background-color: coral; 
-    height: 800px;
+    height: 830px;
     width: 1300px; 
     margin: auto;
 
 }
 
 #RuleSettings {
-    background-color: rgb(255, 137, 202); 
-    height: 800px;
+    background-color: rgb(159, 93, 161); 
+    height: 830px;
     width: 1300px; 
     margin: auto;
 
+}
+
+#Randomize {
+    background-color: rgb(76, 116, 189); 
+    height: 830px;
+    width: 1300px; 
+    margin: auto;
 }

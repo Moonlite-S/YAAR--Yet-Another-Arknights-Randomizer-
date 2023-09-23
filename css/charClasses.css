@@ -1,13 +1,5 @@
 /* This is where the Operators and rarities are assigned to in the Operator tab */
 
-/* Rarities */
-.OneStar { background-color: #D9D9D9; }
-.TwoStar { background-color:  #DCE538; }
-.ThreeStar { background-color: #ABE6FF; }
-.FourStar { background-color: #ECECF4; }
-.FiveStar { background-color: #F9E9B7; }
-.SixStar { background-color: #FBDE6C; }
-
 /* Classes of all playable characters in Global */
 
 /* Vanguards */
@@ -81,7 +73,7 @@
     background-image: none;
 }
 .bagpipe {
-    background-image: none;
+    background-image: url('../img/aak.png');
 }
 
 /* Defenders */
