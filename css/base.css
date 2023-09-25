@@ -72,8 +72,10 @@ h1, h2 {
         transition: 0.3s;
     }
 
-    .opClassAllToggle {
-        transition: 0.3s;    
+    .opClassAll {
+        width: 50px;
+        transition: 0.3s;   
+        float: left;
     }
 
     .opClassToggle {
@@ -99,7 +101,7 @@ h1, h2 {
 
     .opClass:hover { background-color: rgb(24, 18, 43);}
 
-    .opClassAllToggle:hover { background-color: rgb(24, 18, 43);}
+    .opClassAll:hover { background-color: rgb(24, 18, 43);}
 
 #OpCharSelect {
     height: 100%; 
