@@ -101,6 +101,8 @@ h1, h2 {
 
     .opClass:hover { background-color: rgb(24, 18, 43);}
 
+    .opClassToggle:hover { background-color: rgba(214, 214, 214, 0.548);}
+
     .opClassAll:hover { background-color: rgb(24, 18, 43);}
 
 #OpCharSelect {
