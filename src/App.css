@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'ModernSans';
+  src: url('../ModernSans-Light.otf');
+}
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-family: ModernSans, Calibri !important;
+}
+
+h1, h2 {
+  margin: 0px;
+}
+
+.mainHeader {
+  background-color: rgb(64, 66, 88);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainBody {
+  background-color: rgb(64, 66, 88);
+}
+
+.mainTab {
+  height: 820px;
+  width: 1300px; 
+  margin: auto;
+}
+
+.tabButton {
+  border: none;
+  background-color: rgb(71, 78, 104);
+  width: 200px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+}  
+
+  .tabButton:hover {
+      background-color: rgb(80, 87, 122);
+  }
+
+.hide {
+  display: none;
+}
+
+#Operator {
+  background-color: rgb(64, 66, 88); 
+  height: 820px; 
+  width: 1300px; 
+  text-align: center;
+  margin: auto;
+}
+
+#OpClassSelect {
+  width: 100px;
+  height: 100%;
+  background-color: rgb(71, 78, 104);
+  display: block;
+  float: left;
+  
+}
+  
+  .opClass {
+      width: 100px;
+      height: 100px;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .opClassAll {
+      width: 50px;
+      transition: 0.3s;   
+      float: left;
+  }
+
+  .opClassToggle {
+      filter: invert(.5);
+      background-color: rgba(255, 255, 255, 0.226);
+  }
+
+  .opClass.Vanguard{ background-image: url('../img/vanguard.png'); }
+
+  .opClass.Guard{ background-image: url('../img/guard.png'); }
+
+  .opClass.Defender{ background-image: url('../img/defender.png');}
+
+  .opClass.Caster{ background-image: url('../img/caster.png');}
+
+  .opClass.Sniper{ background-image: url('../img/sniper.png')}
+
+  .opClass.Medic{ background-image: url('../img/medic.png');}
+
+  .opClass.Supporter{ background-image: url('../img/supporter.png');}
+
+  .opClass.Specialist{ background-image: url('../img/specialist.png');}
+
+  .opClass:hover { background-color: rgb(24, 18, 43);}
+
+  .opClassToggle:hover { background-color: rgba(214, 214, 214, 0.548);}
+
+  .opClassAll:hover { background-color: rgb(24, 18, 43);}
+
+#OpCharSelect {
+  height: 100%; 
+  width: 1200px; 
+  background-color: rgb(107, 114, 142); 
+  overflow-y: scroll;
+}
+
+  .opCard {
+      width: 140px;
+      height: 70px;
+      float: left;
+      display: flex;
+      justify-content: flex-end;
+      text-align: right;
+      flex-direction: column;
+      margin: 10px;
+      padding-right: 8px;
+      padding-bottom: 0px;
+      transition: 0.3s;
+      background-size: contain;
+      box-shadow: 0px 0px 3px rgb(0, 0, 0), 0 0 5px black inset;
+      color: black;
+      font-size: 15px;
+  }
+
+  .opCard.deselected {
+      filter: grayscale(100%)
+  }
+
+  .opCard.selected {
+      background-color:  rgb(226, 224, 224);
+      filter: grayscale(0)
+  }
+
+  .opCard:hover {
+      transform: scale(1.1, 1.1);
+      box-shadow: 0px 0px 25px rgb(0, 0, 0), 0 0 2px black inset;
+      background-color: rgba(0, 0, 0, 0.37);
+  }
+
+
+#Levels {
+  background-color: coral; 
+}
+
+#RuleSettings {
+  background-color: rgb(159, 93, 161); 
+
+}
+
+#Randomize {
+  background-color: rgb(76, 116, 189); 
+}
