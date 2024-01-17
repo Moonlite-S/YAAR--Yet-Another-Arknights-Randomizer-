@@ -1,3 +1,3 @@
-# YAAR--Yet-Another-Arknights-Randomizer-  
+# Yet Another Arknights Randomizer
 
-Still in progress lol (idk what im doin)  
+Currently re-designing everything to fit within React's framework
