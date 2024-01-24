@@ -1,0 +1,19 @@
+.yellowbars {
+    background-color: rgb(179, 172, 57);
+    height: 10px;
+    animation: 3s ease-in 1s 1 yellowbars;
+    animation-fill-mode: forwards;
+}
+
+@keyframes yellowbars {
+    0% {transform: scaleX(1);}
+    20% {transform: scaleX(0.95);}
+    35% {transform: scaleX(0.80);}
+    100% {transform: scaleX(0);}
+}
+
+.BackgroundLoadingScreen {
+    height: 100%;
+    width: 100%;;
+    background-color: grey;
+}
