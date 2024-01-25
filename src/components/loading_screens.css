@@ -1,7 +1,8 @@
 .yellowbars {
-    background-color: rgb(179, 172, 57);
-    height: 10px;
-    animation: 3s ease-in 1s 1 yellowbars;
+    background-color: rgb(224, 220, 136);
+    height: 30px;
+    width: 100%;
+    animation: 3s ease 1s 1 yellowbars;
     animation-fill-mode: forwards;
 }
 
@@ -13,7 +14,22 @@
 }
 
 .BackgroundLoadingScreen {
-    height: 100%;
-    width: 100%;;
+    display: flex;
+    align-items: center;
+    height: 100vh;
     background-color: grey;
+
+    animation-name: hide;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes hide {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }

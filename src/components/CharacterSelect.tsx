@@ -1,10 +1,10 @@
+import './charClasses.css'
 
 export function CharacterSelectUI() {
-
     return (
         <>
             <div className="mainBody">
-            <div id="Operator" className="mainTab">
+            <div id="Operator">
                 <div id="OpClassSelect">
                     <div className="opClass Vanguard"></div>
                     <div className="opClass Guard"></div>
@@ -19,255 +19,255 @@ export function CharacterSelectUI() {
                 </div>
 
                 <div id="OpCharSelect">
-                    <div className="opCard aak" data-className="Specialist"> <p>Aak</p> </div>
-                    <div className="opCard" data-className=""> <p>Angelina</p> </div>
-                    <div className="opCard" data-className=""> <p>Archetto</p> </div>
-                    <div className="opCard" data-className=""> <p>Ash</p> </div>
-                    <div className="opCard" data-className=""> <p>Bagpipe</p> </div>
-                    <div className="opCard" data-className=""> <p>Blaze</p> </div>
-                    <div className="opCard" data-className=""> <p>Blemishine</p> </div>
-                    <div className="opCard" data-className=""> <p>Carnelian</p> </div>
-                    <div className="opCard" data-className=""> <p>Ceobe</p> </div>
-                    <div className="opCard" data-className=""> <p>Ch'en</p> </div>
-                    <div className="opCard" data-className=""> <p>Ch'en the <br /> Holunday</p> </div>
-                    <div className="opCard" data-className=""> <p>Chongyue</p> </div>
-                    <div className="opCard" data-className=""> <p>Dorothy</p> </div>
-                    <div className="opCard" data-className=""> <p>Dusk</p> </div>
-                    <div className="opCard" data-className=""> <p>Ebenholz</p> </div>
-                    <div className="opCard" data-className=""> <p>Euncectes</p> </div>
-                    <div className="opCard" data-className=""> <p>Exusiai</p> </div>
-                    <div className="opCard" data-className=""> <p>Eyjafjalla</p> </div>
-                    <div className="opCard" data-className=""> <p>Fartooth</p> </div>
-                    <div className="opCard" data-className=""> <p>Fiammetta</p> </div>
-                    <div className="opCard" data-className=""> <p>Flametail</p> </div>
-                    <div className="opCard" data-className=""> <p>Gavial the<br />Invincible</p> </div>
-                    <div className="opCard" data-className=""> <p>Gladiia</p> </div>
-                    <div className="opCard" data-className=""> <p>Gnosis</p> </div>
-                    <div className="opCard" data-className=""> <p>Goldenglow</p> </div>
-                    <div className="opCard" data-className=""> <p>Hellagur</p> </div>
-                    <div className="opCard" data-className=""> <p>Horn</p> </div>
-                    <div className="opCard" data-className=""> <p>Hoshiguma</p> </div>
-                    <div className="opCard" data-className=""> <p>Ifrit</p> </div>
-                    <div className="opCard" data-className=""> <p>Irene</p> </div>
-                    <div className="opCard" data-className=""> <p>Kal'tsit</p> </div>
-                    <div className="opCard" data-className=""> <p>Kirin R <br />Yato</p> </div>
-                    <div className="opCard" data-className=""> <p>Lee</p> </div>
-                    <div className="opCard" data-className=""> <p>Lin</p> </div>
-                    <div className="opCard" data-className=""> <p>Ling</p> </div>
-                    <div className="opCard" data-className=""> <p>Lumen</p> </div>
-                    <div className="opCard" data-className=""> <p>Magallan</p> </div>
-                    <div className="opCard" data-className=""> <p>Mizuki</p> </div>
-                    <div className="opCard" data-className=""> <p>Mostima</p> </div>
-                    <div className="opCard" data-className=""> <p>Mountain</p> </div>
-                    <div className="opCard" data-className=""> <p>Mudrock</p> </div>
-                    <div className="opCard" data-className=""> <p>Mlynar</p> </div>
-                    <div className="opCard" data-className=""> <p>Nearl the <br /> Radiant Knight</p> </div>
-                    <div className="opCard" data-className=""> <p>Nian</p> </div>
-                    <div className="opCard" data-className=""> <p>Nightingale</p> </div>
-                    <div className="opCard" data-className=""> <p>Pallas</p> </div>
-                    <div className="opCard" data-className=""> <p>Passenger</p> </div>
-                    <div className="opCard" data-className=""> <p>Penance</p> </div>
-                    <div className="opCard" data-className=""> <p>Phantom</p> </div>
-                    <div className="opCard" data-className=""> <p>Quibai</p> </div>
-                    <div className="opCard" data-className=""> <p>Reed the<br />Flame Shadow</p> </div>
-                    <div className="opCard" data-className=""> <p>Rosmontis</p> </div>
-                    <div className="opCard" data-className=""> <p>Saga</p> </div>
-                    <div className="opCard" data-className=""> <p>Saileach</p> </div>
-                    <div className="opCard" data-className=""> <p>Saria</p> </div>
-                    <div className="opCard" data-className=""> <p>Schwarz</p> </div>
-                    <div className="opCard" data-className=""> <p>Shining</p> </div>
-                    <div className="opCard" data-className=""> <p>Seige</p> </div>
-                    <div className="opCard" data-className=""> <p>SilverAsh</p> </div>
-                    <div className="opCard" data-className=""> <p>Skadi</p> </div>
-                    <div className="opCard" data-className=""> <p>Skadi the<br />Corrupting Heart</p> </div>
-                    <div className="opCard" data-className=""> <p>Specter the<br />Unchained</p> </div>
-                    <div className="opCard" data-className=""> <p>Stainless</p> </div>
-                    <div className="opCard" data-className=""> <p>Surtr</p> </div>
-                    <div className="opCard" data-className=""> <p>Suzuran</p> </div>
-                    <div className="opCard" data-className=""> <p>Texas the<br />Omertosa</p> </div>
-                    <div className="opCard" data-className=""> <p>Thorns</p> </div> 
-                    <div className="opCard" data-className=""> <p>Vigil</p> </div>
-                    <div className="opCard" data-className=""> <p>W</p> </div>
-                    <div className="opCard" data-className=""> <p>Weedy</p> </div>
-                    <div className="opCard" data-className=""> <p>Pozyomka</p> </div>
-                    <div className="opCard" data-className=""> <p>Rosa</p> </div>
+                    <div className="opCard aak"> <p>Aak</p> </div>
+                    <div className="opCard"> <p>Angelina</p> </div>
+                    <div className="opCard"> <p>Archetto</p> </div>
+                    <div className="opCard"> <p>Ash</p> </div>
+                    <div className="opCard"> <p>Bagpipe</p> </div>
+                    <div className="opCard"> <p>Blaze</p> </div>
+                    <div className="opCard"> <p>Blemishine</p> </div>
+                    <div className="opCard"> <p>Carnelian</p> </div>
+                    <div className="opCard"> <p>Ceobe</p> </div>
+                    <div className="opCard"> <p>Ch'en</p> </div>
+                    <div className="opCard"> <p>Ch'en the <br /> Holunday</p> </div>
+                    <div className="opCard"> <p>Chongyue</p> </div>
+                    <div className="opCard"> <p>Dorothy</p> </div>
+                    <div className="opCard"> <p>Dusk</p> </div>
+                    <div className="opCard"> <p>Ebenholz</p> </div>
+                    <div className="opCard"> <p>Euncectes</p> </div>
+                    <div className="opCard"> <p>Exusiai</p> </div>
+                    <div className="opCard"> <p>Eyjafjalla</p> </div>
+                    <div className="opCard"> <p>Fartooth</p> </div>
+                    <div className="opCard"> <p>Fiammetta</p> </div>
+                    <div className="opCard"> <p>Flametail</p> </div>
+                    <div className="opCard"> <p>Gavial the<br />Invincible</p> </div>
+                    <div className="opCard"> <p>Gladiia</p> </div>
+                    <div className="opCard"> <p>Gnosis</p> </div>
+                    <div className="opCard"> <p>Goldenglow</p> </div>
+                    <div className="opCard"> <p>Hellagur</p> </div>
+                    <div className="opCard"> <p>Horn</p> </div>
+                    <div className="opCard"> <p>Hoshiguma</p> </div>
+                    <div className="opCard"> <p>Ifrit</p> </div>
+                    <div className="opCard"> <p>Irene</p> </div>
+                    <div className="opCard"> <p>Kal'tsit</p> </div>
+                    <div className="opCard"> <p>Kirin R <br />Yato</p> </div>
+                    <div className="opCard"> <p>Lee</p> </div>
+                    <div className="opCard"> <p>Lin</p> </div>
+                    <div className="opCard"> <p>Ling</p> </div>
+                    <div className="opCard"> <p>Lumen</p> </div>
+                    <div className="opCard"> <p>Magallan</p> </div>
+                    <div className="opCard"> <p>Mizuki</p> </div>
+                    <div className="opCard"> <p>Mostima</p> </div>
+                    <div className="opCard"> <p>Mountain</p> </div>
+                    <div className="opCard"> <p>Mudrock</p> </div>
+                    <div className="opCard"> <p>Mlynar</p> </div>
+                    <div className="opCard"> <p>Nearl the <br /> Radiant Knight</p> </div>
+                    <div className="opCard"> <p>Nian</p> </div>
+                    <div className="opCard"> <p>Nightingale</p> </div>
+                    <div className="opCard"> <p>Pallas</p> </div>
+                    <div className="opCard"> <p>Passenger</p> </div>
+                    <div className="opCard"> <p>Penance</p> </div>
+                    <div className="opCard"> <p>Phantom</p> </div>
+                    <div className="opCard"> <p>Quibai</p> </div>
+                    <div className="opCard"> <p>Reed the<br />Flame Shadow</p> </div>
+                    <div className="opCard"> <p>Rosmontis</p> </div>
+                    <div className="opCard"> <p>Saga</p> </div>
+                    <div className="opCard"> <p>Saileach</p> </div>
+                    <div className="opCard"> <p>Saria</p> </div>
+                    <div className="opCard"> <p>Schwarz</p> </div>
+                    <div className="opCard"> <p>Shining</p> </div>
+                    <div className="opCard"> <p>Seige</p> </div>
+                    <div className="opCard"> <p>SilverAsh</p> </div>
+                    <div className="opCard"> <p>Skadi</p> </div>
+                    <div className="opCard"> <p>Skadi the<br />Corrupting Heart</p> </div>
+                    <div className="opCard"> <p>Specter the<br />Unchained</p> </div>
+                    <div className="opCard"> <p>Stainless</p> </div>
+                    <div className="opCard"> <p>Surtr</p> </div>
+                    <div className="opCard"> <p>Suzuran</p> </div>
+                    <div className="opCard"> <p>Texas the<br />Omertosa</p> </div>
+                    <div className="opCard"> <p>Thorns</p> </div> 
+                    <div className="opCard"> <p>Vigil</p> </div>
+                    <div className="opCard"> <p>W</p> </div>
+                    <div className="opCard"> <p>Weedy</p> </div>
+                    <div className="opCard"> <p>Pozyomka</p> </div>
+                    <div className="opCard"> <p>Rosa</p> </div>
 
-                    <div className="opCard" data-className=""> <p>Absinthe</p> </div>
-                    <div className="opCard" data-className=""> <p>Akafuyu</p> </div>
-                    <div className="opCard" data-className=""> <p>Amiya</p> </div>
-                    <div className="opCard" data-className=""> <p>Andreana</p> </div>
-                    <div className="opCard" data-className=""> <p>Aosta</p> </div>
-                    <div className="opCard" data-className=""> <p>Aosta</p> </div>
-                    <div className="opCard" data-className=""> <p>April</p> </div>
-                    <div className="opCard" data-className=""> <p>Asbestos</p> </div>
-                    <div className="opCard" data-className=""> <p>Ashlock</p> </div>
-                    <div className="opCard" data-className=""> <p>Astesia</p> </div>
-                    <div className="opCard" data-className=""> <p>Astgenne</p> </div>
-                    <div className="opCard" data-className=""> <p>Aurora</p> </div>
-                    <div className="opCard" data-className=""> <p>Ayerscarpe</p> </div>
-                    <div className="opCard" data-className=""> <p>Beeswax</p> </div>
-                    <div className="opCard" data-className=""> <p>Bena</p> </div>
-                    <div className="opCard" data-className=""> <p>Bibeak</p> </div>
-                    <div className="opCard" data-className=""> <p>Bison</p> </div>
-                    <div className="opCard" data-className=""> <p>Blackknight</p> </div>
-                    <div className="opCard" data-className=""> <p>Blitz</p> </div>
-                    <div className="opCard" data-className=""> <p>Blue Poison</p> </div>
-                    <div className="opCard" data-className=""> <p>Breeze</p> </div>
-                    <div className="opCard" data-className=""> <p>Broca</p> </div>
-                    <div className="opCard" data-className=""> <p>Cantabile</p> </div>
-                    <div className="opCard" data-className=""> <p>Ceylon</p> </div>
-                    <div className="opCard" data-className=""> <p>Chiave</p> </div>
-                    <div className="opCard" data-className=""> <p>Cliffheart</p> </div>
-                    <div className="opCard" data-className=""> <p>Corroserum</p> </div>
-                    <div className="opCard" data-className=""> <p>Croissant</p> </div>
-                    <div className="opCard" data-className=""> <p>Czerny</p> </div>
-                    <div className="opCard" data-className=""> <p>Dagda</p> </div>
-                    <div className="opCard" data-className=""> <p>Elysium</p> </div>
-                    <div className="opCard" data-className=""> <p>Enforcer</p> </div>
-                    <div className="opCard" data-className=""> <p>Erato</p> </div>
-                    <div className="opCard" data-className=""> <p>Executor</p> </div>
-                    <div className="opCard" data-className=""> <p>FEater</p> </div>
-                    <div className="opCard" data-className=""> <p>Firewatch</p> </div>
-                    <div className="opCard" data-className=""> <p>Firewhistle</p> </div>
-                    <div className="opCard" data-className=""> <p>Flamebr /inger</p> </div>
-                    <div className="opCard" data-className=""> <p>Flint</p> </div>
-                    <div className="opCard" data-className=""> <p>Folinic</p> </div>
-                    <div className="opCard" data-className=""> <p>Franka</p> </div>
-                    <div className="opCard" data-className=""> <p>Frost</p> </div>
-                    <div className="opCard" data-className=""> <p>Glaucus</p> </div>
-                    <div className="opCard" data-className=""> <p>Grani</p> </div>
-                    <div className="opCard" data-className=""> <p>GreyThroat</p> </div>
-                    <div className="opCard" data-className=""> <p>Greyy the Lighningbearer</p> </div>
-                    <div className="opCard" data-className=""> <p>Harmonie</p> </div>
-                    <div className="opCard" data-className=""> <p>Heidi</p> </div>
-                    <div className="opCard" data-className=""> <p>Hibiscus the Purifier</p> </div>
-                    <div className="opCard" data-className=""> <p>Highmore</p> </div>
-                    <div className="opCard" data-className=""> <p>Honeyberry</p> </div>
-                    <div className="opCard" data-className=""> <p>Hung</p> </div>
-                    <div className="opCard" data-className=""> <p>Indra</p> </div>
-                    <div className="opCard" data-className=""> <p>Iris</p> </div>
-                    <div className="opCard" data-className=""> <p>Jieyun</p> </div>
-                    <div className="opCard" data-className=""> <p>Kafka</p> </div>
-                    <div className="opCard" data-className=""> <p>Kazemaru</p> </div>
-                    <div className="opCard" data-className=""> <p>Kirara</p> </div>
-                    <div className="opCard" data-className=""> <p>Kjera</p> </div>
-                    <div className="opCard" data-className=""> <p>Kroos the Keen Glint</p> </div>
-                    <div className="opCard" data-className=""> <p>La Pluma</p> </div>
-                    <div className="opCard" data-className=""> <p>Lava the Purgatory</p> </div>
-                    <div className="opCard" data-className=""> <p>Leizi</p> </div>
-                    <div className="opCard" data-className=""> <p>Leonhardt</p> </div>
-                    <div className="opCard" data-className=""> <p>Liskarm</p> </div>
-                    <div className="opCard" data-className=""> <p>Lunacub</p> </div>
-                    <div className="opCard" data-className=""> <p>Manticore</p> </div>
-                    <div className="opCard" data-className=""> <p>Mayer</p> </div>
-                    <div className="opCard" data-className=""> <p>Melanite</p> </div>
-                    <div className="opCard" data-className=""> <p>Metoerite</p> </div>
-                    <div className="opCard" data-className=""> <p>Minimalist</p> </div>
-                    <div className="opCard" data-className=""> <p>Mint</p> </div>
-                    <div className="opCard" data-className=""> <p>Morgan</p> </div>
-                    <div className="opCard" data-className=""> <p>Mr. Nothing</p> </div>
-                    <div className="opCard" data-className=""> <p>Mulberry</p> </div>
-                    <div className="opCard" data-className=""> <p>Nearl</p> </div>
-                    <div className="opCard" data-className=""> <p>Nightmare</p> </div>
-                    <div className="opCard" data-className=""> <p>Nine-Colored Deer</p> </div>
-                    <div className="opCard" data-className=""> <p>Paprika</p> </div>
-                    <div className="opCard" data-className=""> <p>Platinum</p> </div>
-                    <div className="opCard" data-className=""> <p>Pramanix</p> </div>
-                    <div className="opCard" data-className=""> <p>Projekt Red</p> </div>
-                    <div className="opCard" data-className=""> <p>Provence</p> </div>
-                    <div className="opCard" data-className=""> <p>Proviso</p> </div>
-                    <div className="opCard" data-className=""> <p>Ptilopsis</p> </div>
-                    <div className="opCard" data-className=""> <p>Puzzle</p> </div>
-                    <div className="opCard" data-className=""> <p>Qanipalaat</p> </div>
-                    <div className="opCard" data-className=""> <p>Quercus</p> </div>
-                    <div className="opCard" data-className=""> <p>Rathalos S Noir Corne</p> </div>
-                    <div className="opCard" data-className=""> <p>Reed</p> </div>
-                    <div className="opCard" data-className=""> <p>Robin</p> </div>
-                    <div className="opCard" data-className=""> <p>Rockrock</p> </div>
-                    <div className="opCard" data-className=""> <p>Santalla</p> </div>
-                    <div className="opCard" data-className=""> <p>Savage</p> </div>
-                    <div className="opCard" data-className=""> <p>Scene</p> </div>
-                    <div className="opCard" data-className=""> <p>Sesa</p> </div>
-                    <div className="opCard" data-className=""> <p>Shalem</p> </div>
-                    <div className="opCard" data-className=""> <p>Shamare</p> </div>
-                    <div className="opCard" data-className=""> <p>Sideroca</p> </div>
-                    <div className="opCard" data-className=""> <p>Silence</p> </div>
-                    <div className="opCard" data-className=""> <p>Skyfire</p> </div>
-                    <div className="opCard" data-className=""> <p>Snowsant</p> </div>
-                    <div className="opCard" data-className=""> <p>Sora</p> </div>
-                    <div className="opCard" data-className=""> <p>Specter</p> </div>
-                    <div className="opCard" data-className=""> <p>Swire</p> </div>
-                    <div className="opCard" data-className=""> <p>Tachanka</p> </div>
-                    <div className="opCard" data-className=""> <p>Tequila</p> </div>
-                    <div className="opCard" data-className=""> <p>Texas</p> </div>
-                    <div className="opCard" data-className=""> <p>Toddifons</p> </div>
-                    <div className="opCard" data-className=""> <p>Tomimi</p> </div>
-                    <div className="opCard" data-className=""> <p>Tsukinogi</p> </div>
-                    <div className="opCard" data-className=""> <p>Tuyue</p> </div>
-                    <div className="opCard" data-className=""> <p>Vulcan</p> </div>
-                    <div className="opCard" data-className=""> <p>Waai Fu</p> </div>
-                    <div className="opCard" data-className=""> <p>Warfarin</p> </div>
-                    <div className="opCard" data-className=""> <p>Whislash</p> </div>
-                    <div className="opCard" data-className=""> <p>Whisperain</p> </div>
-                    <div className="opCard" data-className=""> <p>Wild Mane</p> </div>
-                    <div className="opCard" data-className=""> <p>Wind Chimes</p> </div>
-                    <div className="opCard" data-className=""> <p>Windflit</p> </div>
-                    <div className="opCard" data-className=""> <p>Zima</p> </div>
-                    <div className="opCard" data-className=""> <p>Istina</p> </div>
+                    <div className="opCard"> <p>Absinthe</p> </div>
+                    <div className="opCard"> <p>Akafuyu</p> </div>
+                    <div className="opCard"> <p>Amiya</p> </div>
+                    <div className="opCard"> <p>Andreana</p> </div>
+                    <div className="opCard"> <p>Aosta</p> </div>
+                    <div className="opCard"> <p>Aosta</p> </div>
+                    <div className="opCard"> <p>April</p> </div>
+                    <div className="opCard"> <p>Asbestos</p> </div>
+                    <div className="opCard"> <p>Ashlock</p> </div>
+                    <div className="opCard"> <p>Astesia</p> </div>
+                    <div className="opCard"> <p>Astgenne</p> </div>
+                    <div className="opCard"> <p>Aurora</p> </div>
+                    <div className="opCard"> <p>Ayerscarpe</p> </div>
+                    <div className="opCard"> <p>Beeswax</p> </div>
+                    <div className="opCard"> <p>Bena</p> </div>
+                    <div className="opCard"> <p>Bibeak</p> </div>
+                    <div className="opCard"> <p>Bison</p> </div>
+                    <div className="opCard"> <p>Blackknight</p> </div>
+                    <div className="opCard"> <p>Blitz</p> </div>
+                    <div className="opCard"> <p>Blue Poison</p> </div>
+                    <div className="opCard"> <p>Breeze</p> </div>
+                    <div className="opCard"> <p>Broca</p> </div>
+                    <div className="opCard"> <p>Cantabile</p> </div>
+                    <div className="opCard"> <p>Ceylon</p> </div>
+                    <div className="opCard"> <p>Chiave</p> </div>
+                    <div className="opCard"> <p>Cliffheart</p> </div>
+                    <div className="opCard"> <p>Corroserum</p> </div>
+                    <div className="opCard"> <p>Croissant</p> </div>
+                    <div className="opCard"> <p>Czerny</p> </div>
+                    <div className="opCard"> <p>Dagda</p> </div>
+                    <div className="opCard"> <p>Elysium</p> </div>
+                    <div className="opCard"> <p>Enforcer</p> </div>
+                    <div className="opCard"> <p>Erato</p> </div>
+                    <div className="opCard"> <p>Executor</p> </div>
+                    <div className="opCard"> <p>FEater</p> </div>
+                    <div className="opCard"> <p>Firewatch</p> </div>
+                    <div className="opCard"> <p>Firewhistle</p> </div>
+                    <div className="opCard"> <p>Flamebr /inger</p> </div>
+                    <div className="opCard"> <p>Flint</p> </div>
+                    <div className="opCard"> <p>Folinic</p> </div>
+                    <div className="opCard"> <p>Franka</p> </div>
+                    <div className="opCard"> <p>Frost</p> </div>
+                    <div className="opCard"> <p>Glaucus</p> </div>
+                    <div className="opCard"> <p>Grani</p> </div>
+                    <div className="opCard"> <p>GreyThroat</p> </div>
+                    <div className="opCard"> <p>Greyy the Lighningbearer</p> </div>
+                    <div className="opCard"> <p>Harmonie</p> </div>
+                    <div className="opCard"> <p>Heidi</p> </div>
+                    <div className="opCard"> <p>Hibiscus the Purifier</p> </div>
+                    <div className="opCard"> <p>Highmore</p> </div>
+                    <div className="opCard"> <p>Honeyberry</p> </div>
+                    <div className="opCard"> <p>Hung</p> </div>
+                    <div className="opCard"> <p>Indra</p> </div>
+                    <div className="opCard"> <p>Iris</p> </div>
+                    <div className="opCard"> <p>Jieyun</p> </div>
+                    <div className="opCard"> <p>Kafka</p> </div>
+                    <div className="opCard"> <p>Kazemaru</p> </div>
+                    <div className="opCard"> <p>Kirara</p> </div>
+                    <div className="opCard"> <p>Kjera</p> </div>
+                    <div className="opCard"> <p>Kroos the Keen Glint</p> </div>
+                    <div className="opCard"> <p>La Pluma</p> </div>
+                    <div className="opCard"> <p>Lava the Purgatory</p> </div>
+                    <div className="opCard"> <p>Leizi</p> </div>
+                    <div className="opCard"> <p>Leonhardt</p> </div>
+                    <div className="opCard"> <p>Liskarm</p> </div>
+                    <div className="opCard"> <p>Lunacub</p> </div>
+                    <div className="opCard"> <p>Manticore</p> </div>
+                    <div className="opCard"> <p>Mayer</p> </div>
+                    <div className="opCard"> <p>Melanite</p> </div>
+                    <div className="opCard"> <p>Metoerite</p> </div>
+                    <div className="opCard"> <p>Minimalist</p> </div>
+                    <div className="opCard"> <p>Mint</p> </div>
+                    <div className="opCard"> <p>Morgan</p> </div>
+                    <div className="opCard"> <p>Mr. Nothing</p> </div>
+                    <div className="opCard"> <p>Mulberry</p> </div>
+                    <div className="opCard"> <p>Nearl</p> </div>
+                    <div className="opCard"> <p>Nightmare</p> </div>
+                    <div className="opCard"> <p>Nine-Colored Deer</p> </div>
+                    <div className="opCard"> <p>Paprika</p> </div>
+                    <div className="opCard"> <p>Platinum</p> </div>
+                    <div className="opCard"> <p>Pramanix</p> </div>
+                    <div className="opCard"> <p>Projekt Red</p> </div>
+                    <div className="opCard"> <p>Provence</p> </div>
+                    <div className="opCard"> <p>Proviso</p> </div>
+                    <div className="opCard"> <p>Ptilopsis</p> </div>
+                    <div className="opCard"> <p>Puzzle</p> </div>
+                    <div className="opCard"> <p>Qanipalaat</p> </div>
+                    <div className="opCard"> <p>Quercus</p> </div>
+                    <div className="opCard"> <p>Rathalos S Noir Corne</p> </div>
+                    <div className="opCard"> <p>Reed</p> </div>
+                    <div className="opCard"> <p>Robin</p> </div>
+                    <div className="opCard"> <p>Rockrock</p> </div>
+                    <div className="opCard"> <p>Santalla</p> </div>
+                    <div className="opCard"> <p>Savage</p> </div>
+                    <div className="opCard"> <p>Scene</p> </div>
+                    <div className="opCard"> <p>Sesa</p> </div>
+                    <div className="opCard"> <p>Shalem</p> </div>
+                    <div className="opCard"> <p>Shamare</p> </div>
+                    <div className="opCard"> <p>Sideroca</p> </div>
+                    <div className="opCard"> <p>Silence</p> </div>
+                    <div className="opCard"> <p>Skyfire</p> </div>
+                    <div className="opCard"> <p>Snowsant</p> </div>
+                    <div className="opCard"> <p>Sora</p> </div>
+                    <div className="opCard"> <p>Specter</p> </div>
+                    <div className="opCard"> <p>Swire</p> </div>
+                    <div className="opCard"> <p>Tachanka</p> </div>
+                    <div className="opCard"> <p>Tequila</p> </div>
+                    <div className="opCard"> <p>Texas</p> </div>
+                    <div className="opCard"> <p>Toddifons</p> </div>
+                    <div className="opCard"> <p>Tomimi</p> </div>
+                    <div className="opCard"> <p>Tsukinogi</p> </div>
+                    <div className="opCard"> <p>Tuyue</p> </div>
+                    <div className="opCard"> <p>Vulcan</p> </div>
+                    <div className="opCard"> <p>Waai Fu</p> </div>
+                    <div className="opCard"> <p>Warfarin</p> </div>
+                    <div className="opCard"> <p>Whislash</p> </div>
+                    <div className="opCard"> <p>Whisperain</p> </div>
+                    <div className="opCard"> <p>Wild Mane</p> </div>
+                    <div className="opCard"> <p>Wind Chimes</p> </div>
+                    <div className="opCard"> <p>Windflit</p> </div>
+                    <div className="opCard"> <p>Zima</p> </div>
+                    <div className="opCard"> <p>Istina</p> </div>
 
-                    <div className="opCard" data-className=""> <p>Acipddrop</p> </div>
-                    <div className="opCard" data-className=""> <p>Ambirel</p> </div>
-                    <div className="opCard" data-className=""> <p>Arene</p> </div>
-                    <div className="opCard" data-className=""> <p>Beanstalk</p> </div>
-                    <div className="opCard" data-className=""> <p>Beehunter</p> </div>
-                    <div className="opCard" data-className=""> <p>Bubble</p> </div>
-                    <div className="opCard" data-className=""> <p>Chestnut</p> </div>
-                    <div className="opCard" data-className=""> <p>Click</p> </div>
-                    <div className="opCard" data-className=""> <p>Convinction</p> </div>
-                    <div className="opCard" data-className=""> <p>Courier</p> </div>
-                    <div className="opCard" data-className=""> <p>Cuora</p> </div>
-                    <div className="opCard" data-className=""> <p>Cutter</p> </div>
-                    <div className="opCard" data-className=""> <p>Deepcolor</p> </div>
-                    <div className="opCard" data-className=""> <p>Dobermann</p> </div>
-                    <div className="opCard" data-className=""> <p>Dur-Nar</p> </div>
-                    <div className="opCard" data-className=""> <p>Earthspirit</p> </div>
-                    <div className="opCard" data-className=""> <p>Estelle</p> </div>
-                    <div className="opCard" data-className=""> <p>Ethan</p> </div>
-                    <div className="opCard" data-className=""> <p>Frostleaf</p> </div>
-                    <div className="opCard" data-className=""> <p>Gavial</p> </div>
-                    <div className="opCard" data-className=""> <p>Gitano</p> </div>
-                    <div className="opCard" data-className=""> <p>Gravel</p> </div>
-                    <div className="opCard" data-className=""> <p>Greyy</p> </div>
-                    <div className="opCard" data-className=""> <p>Haze</p> </div>
-                    <div className="opCard" data-className=""> <p>Indigo</p> </div>
-                    <div className="opCard" data-className=""> <p>Jackie</p> </div>
-                    <div className="opCard" data-className=""> <p>Jaye</p> </div>
-                    <div className="opCard" data-className=""> <p>Jessica</p> </div>
-                    <div className="opCard" data-className=""> <p>Luo Xiaohei</p> </div>
-                    <div className="opCard" data-className=""> <p>Matoimaru</p> </div>
-                    <div className="opCard" data-className=""> <p>Matterhorn</p> </div>
-                    <div className="opCard" data-className=""> <p>May</p> </div>
-                    <div className="opCard" data-className=""> <p>Meteor</p> </div>
-                    <div className="opCard" data-className=""> <p>Mousse</p> </div>
-                    <div className="opCard" data-className=""> <p>Myrrh</p> </div>
-                    <div className="opCard" data-className=""> <p>Myrtle</p> </div>
-                    <div className="opCard" data-className=""> <p>Perfumer</p> </div>
-                    <div className="opCard" data-className=""> <p>Pinecone</p> </div>
-                    <div className="opCard" data-className=""> <p>Podenco</p> </div>
-                    <div className="opCard" data-className=""> <p>Pudding</p> </div>
-                    <div className="opCard" data-className=""> <p>Purestream</p> </div>
-                    <div className="opCard" data-className=""> <p>Quartz</p> </div>
-                    <div className="opCard" data-className=""> <p>Roberta</p> </div>
-                    <div className="opCard" data-className=""> <p>Rope</p> </div>
-                    <div className="opCard" data-className=""> <p>Scavenger</p> </div>
-                    <div className="opCard" data-className=""> <p>Shaw</p> </div>
-                    <div className="opCard" data-className=""> <p>ShiraYuki</p> </div>
-                    <div className="opCard" data-className=""> <p>Sussurro</p> </div>
-                    <div className="opCard" data-className=""> <p>Totter</p> </div>
-                    <div className="opCard" data-className=""> <p>Utage</p> </div>
-                    <div className="opCard" data-className=""> <p>Vermeil</p> </div>
-                    <div className="opCard" data-className=""> <p>Vigna</p> </div>
-                    <div className="opCard" data-className=""> <p>Gummy</p> </div>
+                    <div className="opCard"> <p>Acipddrop</p> </div>
+                    <div className="opCard"> <p>Ambirel</p> </div>
+                    <div className="opCard"> <p>Arene</p> </div>
+                    <div className="opCard"> <p>Beanstalk</p> </div>
+                    <div className="opCard"> <p>Beehunter</p> </div>
+                    <div className="opCard"> <p>Bubble</p> </div>
+                    <div className="opCard"> <p>Chestnut</p> </div>
+                    <div className="opCard"> <p>Click</p> </div>
+                    <div className="opCard"> <p>Convinction</p> </div>
+                    <div className="opCard"> <p>Courier</p> </div>
+                    <div className="opCard"> <p>Cuora</p> </div>
+                    <div className="opCard"> <p>Cutter</p> </div>
+                    <div className="opCard"> <p>Deepcolor</p> </div>
+                    <div className="opCard"> <p>Dobermann</p> </div>
+                    <div className="opCard"> <p>Dur-Nar</p> </div>
+                    <div className="opCard"> <p>Earthspirit</p> </div>
+                    <div className="opCard"> <p>Estelle</p> </div>
+                    <div className="opCard"> <p>Ethan</p> </div>
+                    <div className="opCard"> <p>Frostleaf</p> </div>
+                    <div className="opCard"> <p>Gavial</p> </div>
+                    <div className="opCard"> <p>Gitano</p> </div>
+                    <div className="opCard"> <p>Gravel</p> </div>
+                    <div className="opCard"> <p>Greyy</p> </div>
+                    <div className="opCard"> <p>Haze</p> </div>
+                    <div className="opCard"> <p>Indigo</p> </div>
+                    <div className="opCard"> <p>Jackie</p> </div>
+                    <div className="opCard"> <p>Jaye</p> </div>
+                    <div className="opCard"> <p>Jessica</p> </div>
+                    <div className="opCard"> <p>Luo Xiaohei</p> </div>
+                    <div className="opCard"> <p>Matoimaru</p> </div>
+                    <div className="opCard"> <p>Matterhorn</p> </div>
+                    <div className="opCard"> <p>May</p> </div>
+                    <div className="opCard"> <p>Meteor</p> </div>
+                    <div className="opCard"> <p>Mousse</p> </div>
+                    <div className="opCard"> <p>Myrrh</p> </div>
+                    <div className="opCard"> <p>Myrtle</p> </div>
+                    <div className="opCard"> <p>Perfumer</p> </div>
+                    <div className="opCard"> <p>Pinecone</p> </div>
+                    <div className="opCard"> <p>Podenco</p> </div>
+                    <div className="opCard"> <p>Pudding</p> </div>
+                    <div className="opCard"> <p>Purestream</p> </div>
+                    <div className="opCard"> <p>Quartz</p> </div>
+                    <div className="opCard"> <p>Roberta</p> </div>
+                    <div className="opCard"> <p>Rope</p> </div>
+                    <div className="opCard"> <p>Scavenger</p> </div>
+                    <div className="opCard"> <p>Shaw</p> </div>
+                    <div className="opCard"> <p>ShiraYuki</p> </div>
+                    <div className="opCard"> <p>Sussurro</p> </div>
+                    <div className="opCard"> <p>Totter</p> </div>
+                    <div className="opCard"> <p>Utage</p> </div>
+                    <div className="opCard"> <p>Vermeil</p> </div>
+                    <div className="opCard"> <p>Vigna</p> </div>
+                    <div className="opCard"> <p>Gummy</p> </div>
                     
                 </div>
             </div>
