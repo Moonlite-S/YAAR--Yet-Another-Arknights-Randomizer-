@@ -1,0 +1,55 @@
+#Operator {
+  background-color: rgb(64, 66, 88); 
+  height: 89vh; 
+  width: 100%; 
+  text-align: center;
+}
+
+#OpClassSelect {
+  width: 100px;
+  height: 100vh;
+  background-color: rgb(71, 78, 104);
+  display: block;
+  float: left;
+}
+  
+
+#OpCharSelect {
+  height: 100%;
+  width: 70%; 
+  background-color: rgb(107, 114, 142); 
+  overflow-y: scroll;
+}
+
+  .opCard {
+      width: 140px;
+      height: 10%;
+      float: left;
+      display: flex;
+      justify-content: flex-end;
+      text-align: right;
+      flex-direction: column;
+      margin: 10px;
+      padding-right: 8px;
+      padding-bottom: 0px;
+      transition: 0.3s;
+      background-size: contain;
+      box-shadow: 0px 0px 3px rgb(0, 0, 0), 0 0 5px black inset;
+      color: black;
+      font-size: 15px;
+  }
+
+  .opCard.deselected {
+      filter: grayscale(100%)
+  }
+
+  .opCard.selected {
+      background-color:  rgb(226, 224, 224);
+      filter: grayscale(0)
+  }
+
+  .opCard:hover {
+      transform: scale(1.1, 1.1);
+      box-shadow: 0px 0px 25px rgb(0, 0, 0), 0 0 2px black inset;
+      background-color: rgba(0, 0, 0, 0.37);
+  }

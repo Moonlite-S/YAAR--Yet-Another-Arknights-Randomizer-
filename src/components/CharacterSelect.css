@@ -1,3 +1,10 @@
+#OpClassSelect {
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(71, 78, 104);
+    display: block;
+    float: left;
+  }
 
 .charPos {
     width: 70px; 
@@ -5,6 +12,7 @@
     position: relative; 
     top: 45px;
 }
+
 .sixstar { background-image: url('../img/sixstar.png') }
 .fivestar { background-image: url('../img/fivestar.png') }
 .fourstar { background-image: url('../img/fourstar.png') }

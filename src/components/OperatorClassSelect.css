@@ -1,0 +1,48 @@
+    #OpClassSelect {
+      width: 100px;
+      height: 100vh;
+      background-color: rgb(71, 78, 104);
+      display: block;
+      float: left;
+    }
+      
+      .opClass {
+          width: 100px;
+          height: 100px;
+          display: block;
+          transition: 0.3s;
+      }
+    
+      .opClassAll {
+          width: 50px;
+          transition: 0.3s;   
+          float: left;
+      }
+    
+      .opClassToggle {
+          filter: invert(.5);
+          background-color: rgba(255, 255, 255, 0.226);
+      }
+    
+      .opClass.Vanguard{ background-image: url('../img/vanguard.png'); }
+    
+      .opClass.Guard{ background-image: url('../img/guard.png'); }
+    
+      .opClass.Defender{ background-image: url('../img/defender.png');}
+    
+      .opClass.Caster{ background-image: url('../img/caster.png');}
+    
+      .opClass.Sniper{ background-image: url('../img/sniper.png')}
+    
+      .opClass.Medic{ background-image: url('../img/medic.png');}
+    
+      .opClass.Supporter{ background-image: url('../img/supporter.png');}
+    
+      .opClass.Specialist{ background-image: url('../img/specialist.png');}
+
+    
+      .opClass:hover { background-color: rgb(24, 18, 43);}
+    
+      .opClassToggle:hover { background-color: rgba(214, 214, 214, 0.548);}
+    
+      .opClassAll:hover { background-color: rgb(24, 18, 43);}
